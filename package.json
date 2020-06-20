@@ -1,0 +1,32 @@
+{
+  "name": "expressgraphql",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParadoxInfinite/Express-GraphQL.git"
+  },
+  "author": "Samarth Kulkarni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParadoxInfinite/Express-GraphQL/issues"
+  },
+  "homepage": "https://github.com/ParadoxInfinite/Express-GraphQL#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.15.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "graphql": "^15.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
